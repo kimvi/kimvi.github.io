@@ -1,0 +1,1 @@
+cp -rv  ../jekyll-root/myweb/_site/* .  ; git add * ; git commit -m update ; git push 
