@@ -3,19 +3,17 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>~/home/ | Vivek Mishra</title>
+<title>~/aboutMe | Vivek Mishra</title>
 <meta name="generator" content="Jekyll v3.9.0" />
-<meta property="og:title" content="~/home/" />
+<meta property="og:title" content="~/aboutMe" />
 <meta property="og:locale" content="en_US" />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
+<link rel="canonical" href="http://localhost:4000/about/" />
+<meta property="og:url" content="http://localhost:4000/about/" />
 <meta property="og:site_name" content="Vivek Mishra" />
-<meta property="og:type" content="article" />
-<meta property="article:published_time" content="2021-05-28T23:23:46-07:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="~/home/" />
+<meta property="twitter:title" content="~/aboutMe" />
 <script type="application/ld+json">
-{"headline":"~/home/","dateModified":"2021-05-28T23:23:46-07:00","datePublished":"2021-05-28T23:23:46-07:00","url":"http://localhost:4000/","@type":"WebSite","name":"Vivek Mishra","@context":"https://schema.org"}</script>
+{"headline":"~/aboutMe","url":"http://localhost:4000/about/","@type":"WebSite","name":"Vivek Mishra","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Vivek Mishra" /></head>
 <body><header class="site-header" role="banner">
@@ -35,11 +33,54 @@
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home"><h1 class="page-heading">~/home/</h1><p>Hi! I am Vivek Mishra. I am a software engineer working at <a href="https://www.cadence.com/en_US/home.html">Cadence</a>.
-You can find more about me by clicking <a href="/about">here</a></p>
+        <article class="post">
 
-<hr />
-</div>
+  <header class="post-header">
+    <h1 class="post-title">~/aboutMe</h1>
+  </header>
+
+  <div class="post-content">
+    I am part of a team
+that creates software products that enable verification of gigascale chip
+[layouts](https://en.wikipedia.org/wiki/Integrated_circuit_layout). These
+verified chip layouts can then be realized in silicon by the foundry
+using latest (sub-10nm) semiconductor manufacturing technologies.
+For the youtube folks, here's a short
+[explanation](https://www.youtube.com/watch?v=GZ4DqgxTge0), describing the problem.
+
+Layout verification is a problem that shares   a couple of traits with the currently hot machine learning domain.
+- Both are fairly old problems where computational efficiency is critical for practical applications
+- Just like big-data growth in ML, there has been exponential growth in chip-design data as well, even though the device shrinking may hit
+a wall beyond 1nm, parallel processors, other design enhancement would keep accelerating the growth in design data as well.
+
+In short, computational efficiency, accuracy, and scalability are of utmost
+importance in both these areas. I just mentioned the analogy to
+machine-learning in order to emphasize following point: more often than not,
+its the second-level problems (below the surface) which can really enable a
+given technology forward and more often than not, problems like computational
+efficiency, scalibility manifest in the very small (think nanometers) and the
+very big(computer networks), and I like to work on such problems.
+
+Prior to software engineering, I worked on chip-design, chip-design automation
+areas as a graduate student for my Ph.D.
+[project](https://conservancy.umn.edu/bitstream/handle/11299/182163/Mishra_umn_0130E_17246.pdf?sequence=1&isAllowed=y)
+at Electrical Engineering department, University of Minnesota, in the
+[VLSI-EDA group](http://people.ece.umn.edu/users/sachin/).  I
+studied the performance degradation caused due to `aging' in metal
+wires  networks that connect transistors (interconnects) in a high-performance
+semiconductor chip.  This involved deep-dives into physics, probability, and
+computer science to come up with a physical statistical model, which could be
+efficiently applied to to analyze the direct circuit impact of wire aging
+induced degradation in modern ICs.
+
+I plan to update this webpage with my projects (big and small) as well as share
+other interests of mine, in the hope of getting to know folks who are interested in similar areas.
+
+---
+
+  </div>
+
+</article>
 
       </div>
     </main><footer class="site-footer h-card">
